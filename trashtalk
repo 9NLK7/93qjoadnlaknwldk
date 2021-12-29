@@ -7,7 +7,7 @@ local garbage = {
     "rat";
     "ez";
     "my grandma has more skill than you";
-    "pooron";
+    "gun user";
     "trash";
     "LOL";
     "imagine being you right now";
@@ -67,12 +67,3 @@ game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(
 end
  
 game:GetService("UserInputService").InputBegan:connect(TrashTalk)
-end)
-tab3.AddButton("REJOIN", "rejoins game", function()
-    local ts = game:GetService("TeleportService")
-
-    local p = game:GetService("Players").LocalPlayer
-
- 
-
-    ts:Teleport(game.PlaceId, p)
