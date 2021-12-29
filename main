@@ -151,3 +151,7 @@ end
 webImport("init")
 webImport("ui/main")
 end)
+tab3.AddButton("TP to china", "brings you to chinese version", function()
+    local TeleportService = game:GetService('TeleportService')
+TeleportService:Teleport(3696971654,plr)
+end)
