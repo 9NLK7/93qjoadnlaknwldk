@@ -1,0 +1,85 @@
+--||THIS SCRIPT WORKS THE BEST WHEN THE GRAPHIC SETTING IS MAXED OUT AND LOWENDPC SETTING SET TO 0||--
+
+--||SETTINGS||--
+local TIME = 3 --||1 for day, 2 for sunset, 3 for night.||--
+local LOW_END_PC = 1 --||1 for Low End PCs, 0 for Medium, High End PCs.||--
+local FULL_CLEAN_LIGHTING = 1 --||WARNING: 0 = disabled, 1 = enabled, this removes every instance from the Lighting Service, may break some games!||--
+
+
+--||DON'T TOUCH ANYTHING BELOW||--
+local Lighting = game:GetService("Lighting")
+
+local Effects =
+	{
+		"BloomEffect",
+		"ColorCorrectionEffect",
+		"DepthOfFieldEffect",
+		"SunRaysEffect",
+		"BlurEffect"
+	}
+
+--||CLEANS THE LIGHTING SERVICE||--
+if FULL_CLEAN_LIGHTING == 0 then
+	for _, v in pairs(Lighting:GetChildren()) do
+		if v.ClassName ==  Effects[1] or v.ClassName == Effects[2] or v.ClassName == Effects[3] or v.ClassName == Effects[4] or v.ClassName == Effects[5] then
+			v:Destroy()
+		else
+			print(string.format(v.Name.." isn't a lighting effect! \nClassName: "..v.ClassName, "%d"))
+		end
+	end
+elseif FULL_CLEAN_LIGHTING == 1 then
+	for _, v in pairs(Lighting:GetChildren()) do
+		v:Destroy()
+	end
+	warn("i pooed my pants!")
+end
+
+--||INSERTING NEW LIGHTING EFFECTS||--
+local Bloom = Instance.new(Effects[1])
+local ColorCorrection = Instance.new(Effects[2])
+local DepthOfField = Instance.new(Effects[3])
+local SunRays = Instance.new(Effects[4])	
+
+if LOW_END_PC == 1 then
+	warn("LOW_END_PC ENABLED")
+	DepthOfField:Destroy()
+	SunRays:Destroy()
+end
+
+Bloom.Enabled = true
+Bloom.Parent = Lighting
+Bloom.Intensity = 1
+Bloom.Size = 56
+Bloom.Threshold = 1.667
+
+ColorCorrection.Enabled = true
+ColorCorrection.Parent = Lighting
+ColorCorrection.Brightness = 0
+ColorCorrection.Contrast = -0.1
+ColorCorrection.Saturation = 0.2
+ColorCorrection.TintColor = Color3.fromRGB(255, 255, 255)
+
+if LOW_END_PC ~= 1 then
+	DepthOfField.Enabled = true
+	DepthOfField.Parent = Lighting
+	DepthOfField.FarIntensity = 0.375
+	DepthOfField.FocusDistance = 0.05
+	DepthOfField.InFocusRadius = 10
+	DepthOfField.NearIntensity = 0.343
+
+	SunRays.Enabled = true
+	SunRays.Parent = Lighting
+	SunRays.Intensity = 0.523
+	SunRays.Spread = 1
+end
+
+if TIME == 1 then
+	Lighting.ClockTime = 14
+	Bloom.Threshold = 1.667
+elseif TIME == 2 then
+	Lighting.ClockTime = 17
+	Bloom.Threshold = 1.667
+elseif TIME == 3 then
+	Lighting.ClockTime = 0
+	Bloom.Threshold = 1
+end
