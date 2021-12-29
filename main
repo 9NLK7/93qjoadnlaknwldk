@@ -155,8 +155,8 @@ local penis =
         50,
         500,
         50,
-        function(t)
-            game.Players.LocalPlayer.Character.Humanoid.JumpPower = (t)
+        function(a)
+            game.Players.LocalPlayer.Character.Humanoid.JumpPower = (a)
         end
 )
 
@@ -228,6 +228,16 @@ util:Button(
     end
 )
 
+util:Seperator()
+
+util:Toggle(
+    "Vote GUI",
+    false,
+    function(bool)
+        game:GetService("Players").LocalPlayer.PlayerGui.MainGui.MapVotePage.Visible = (bool)
+    end
+)
+
 local misc = serv:Channel("Misc Scripts")
 
 misc:Button(
@@ -259,3 +269,4 @@ misc:Button(
         end
     end
 )
+
