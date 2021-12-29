@@ -119,7 +119,7 @@ tab2.AddButton("Trash talk(j)", "insult people with speed", function()
 window.Notification("ATTENTION", "KEYBIND = j", 4)
     loadstring(game:HttpGet('https://raw.githubusercontent.com/9NLK7/93qjoadnlaknwldk/main/trashtalk'))()
 end)
-tab3.AddButton("!REJOIN", "rejoins game", function()
+tab3.AddButton("REJOIN", "rejoins game", function()
     local ts = game:GetService("TeleportService")
 
     local p = game:GetService("Players").LocalPlayer
