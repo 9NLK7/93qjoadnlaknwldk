@@ -1,0 +1,221 @@
+local DiscordLib =
+    loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
+
+local win = DiscordLib:Window("NDS Hub")
+
+local serv = win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
+
+local btns = serv:Channel("Body Mods")
+
+btns:Button(
+    "Remove Fall Dmg",
+    function()
+        game.Players.LocalPlayer.Character.FallDamageScript:Destroy()
+        DiscordLib:Notification("Notification", "Fall damage remoced successfully!", "dismiss")
+    end
+)
+
+btns:Seperator()
+
+btns:Button(
+    "Tall FE",
+    function()
+        local LocalPlayer = game:GetService("Players").LocalPlayer
+local Character = LocalPlayer.Character
+local Humanoid = Character:FindFirstChildOfClass("Humanoid")
+
+function rm()
+    for i,v in pairs(Character:GetDescendants()) do
+        if v:IsA("BasePart") then
+            if v.Name == "Handle" or v.Name == "Head" then
+                if Character.Head:FindFirstChild("OriginalSize") then
+                    Character.Head.OriginalSize:Destroy()
+                end
+            else
+                for i,cav in pairs(v:GetDescendants()) do
+                    if cav:IsA("Attachment") then
+                        if cav:FindFirstChild("OriginalPosition") then
+                            cav.OriginalPosition:Destroy()  
+                        end
+                    end
+                end
+                v:FindFirstChild("OriginalSize"):Destroy()
+                if v:FindFirstChild("AvatarPartScaleType") then
+                    v:FindFirstChild("AvatarPartScaleType"):Destroy()
+                end
+            end
+        end
+    end
+end
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyProportionScale"):Destroy()
+wait(1)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyHeightScale"):Destroy()
+wait(1)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyWidthScale"):Destroy()
+wait(1)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyDepthScale"):Destroy()
+wait(1)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("HeadScale"):Destroy()
+wait(1)
+Humanoid.Speed = 30
+    end
+)
+
+btns:Seperator()
+
+btns:Button(
+    "Small FE",
+    function()
+        local LocalPlayer = game:GetService("Players").LocalPlayer
+local Character = LocalPlayer.Character
+local Humanoid = Character:FindFirstChildOfClass("Humanoid")
+
+local function rm()
+    for i,v in pairs(Character:GetDescendants()) do
+        if v:IsA("BasePart") then
+            if v.Name ~= "Head" then
+                for i,cav in pairs(v:GetDescendants()) do
+                    if cav:IsA("Attachment") then
+                        if cav:FindFirstChild("OriginalPosition") then
+                            cav.OriginalPosition:Destroy()
+                        end
+                    end
+                end
+                v:FindFirstChild("OriginalSize"):Destroy()
+                if v:FindFirstChild("AvatarPartScaleType") then
+                    v:FindFirstChild("AvatarPartScaleType"):Destroy()
+                end
+            end
+        end
+    end
+end
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyTypeScale"):Destroy()
+wait(1)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyWidthScale"):Destroy()
+wait(1)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyDepthScale"):Destroy()
+wait(1)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("HeadScale"):Destroy()
+wait(1)
+    end
+)
+
+local vis = serv:Channel("Visuals")
+
+vis:Button(
+    "Remove Blizzard Effect",
+    function()
+        game.Players.LocalPlayer.PlayerGui.BlizzardGui:Destroy()
+    end
+)
+
+vis:Seperator()
+
+vis:Button(
+    "Remove Sandstorm Effect",
+    function()
+        game.Players.LocalPlayer.PlayerGui.SandStormGui:Destroy()
+    end
+)
+
+local util = serv:Channel("Utilites")
+
+util:Button(
+    "Rejoin",
+    function()
+        local ts = game:GetService("TeleportService")
+
+    local p = game:GetService("Players").LocalPlayer
+
+ 
+
+    ts:Teleport(game.PlaceId, p)
+    end
+)
+
+util:Seperator()
+
+util:Button(
+    "TP to Base",
+    function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-282.388824, 180.693329, 340.500519, -0.794444382, 3.76983955e-08, 0.607336879, 4.02783975e-08, 1, -9.38432265e-09, -0.607336879, 1.70072347e-08, -0.794444382)
+    end
+)
+
+util:Seperator()
+
+util:Button(
+    "TP to Island",
+    function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-112.534203, 48.5933762, 25.5484829, 0.241879404, -7.91259964e-08, 0.970306337, 6.1703517e-08, 1, 6.61658888e-08, -0.970306337, 4.38671499e-08, 0.241879404)
+    end
+)
+
+util:Seperator()
+
+util:Button(
+    "TP to China",
+    function()
+        local TeleportService = game:GetService('TeleportService')
+        TeleportService:Teleport(3696971654,plr)
+    end
+)
+
+local misc = serv:Channel("Misc Scripts")
+
+misc:Button(
+    "Infinite Yield",
+    function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end
+)
+
+misc:Seperator()
+
+misc:Button(
+    "CMD X",
+    function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+    end
+)
+
+misc:Seperator()
+
+misc:Button(
+    "Hydroxide",
+    function()
+        local owner = "Upbolt"
+        local branch = "revision"
+
+        local function webImport(file)
+        return loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/%s/Hydroxide/%s/%s.lua"):format(owner, branch, file)), file .. '.lua')()
+        end
+    end
+)
