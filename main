@@ -119,7 +119,7 @@ tab2.AddButton("Trash talk(j)", "insult people with speed", function()
 window.Notification("ATTENTION", "KEYBIND = j", 4)
     loadstring(game:HttpGet('https://raw.githubusercontent.com/9NLK7/93qjoadnlaknwldk/main/trashtalk'))()
 end)
-tab3.AddButton("REJOIN", "rejoins game", function()
+tab3.AddButton("!REJOIN", "rejoins game", function()
     local ts = game:GetService("TeleportService")
 
     local p = game:GetService("Players").LocalPlayer
@@ -139,4 +139,15 @@ tab4.AddButton("High end", "visuals for high end pc's", function()
 end)
 tab4.AddButton("Low end", "visuals for low end pc's", function ()
     loadstring(game:HttpGet('https://github.com/9NLK7/93qjoadnlaknwldk/blob/main/lowvisuals'))()
+end)
+tab3.AddButton("Hydroxide", "remote spy", function()
+    local owner = "Upbolt"
+local branch = "revision"
+
+local function webImport(file)
+    return loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/%s/Hydroxide/%s/%s.lua"):format(owner, branch, file)), file .. '.lua')()
+end
+
+webImport("init")
+webImport("ui/main")
 end)
