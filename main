@@ -127,6 +127,46 @@ wait(1)
     end
 )
 
+btns:Seperator()
+
+local sldr =
+    btns:Slider(
+    "Walkspeed",
+    0,
+    100,
+    16,
+    function(t)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (t)
+    end
+)
+
+btns:Button(
+    "Default",
+    function()
+        sldr:Change(16)
+    end
+)
+
+btns:Seperator()
+
+local penis = 
+    btns:Slider(
+        "JumpHeight",
+        7.2,
+        500,
+        7.2,
+        function(t)
+            game.Players.LocalPlayer.Character.Humanoid.JumpPower = (t)
+        end
+)
+
+btns:Button(
+    "Default",
+    function()
+        penis:Change(7.2)
+    end
+)
+
 local vis = serv:Channel("Visuals")
 
 vis:Button(
