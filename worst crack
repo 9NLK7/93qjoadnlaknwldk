@@ -1,0 +1,197 @@
+--theo please tell me this is a joke LOL
+
+-- LEAKED BY Theo_lol#2949
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", "http://www.roblox.com/asset/?id=6031075938"):Channel("Body Mods"):Button("Remove Fall Dmg", function()
+  game.Players.LocalPlayer.Character.FallDamageScript:Destroy()
+  va:Notification("Notification", "Fall damage remoced successfully!", "dismiss")
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", "http://www.roblox.com/asset/?id=6031075938"):Channel("Body Mods"):Seperator()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", "http://www.roblox.com/asset/?id=6031075938"):Channel("Body Mods"):Button("Tall FE", function()
+  function rm()
+    for fd, fe in pairs(va:GetDescendants()) do
+      if not pairs(va:GetDescendants()) then
+        if fe.Name == "Handle" or fe.Name == "Head" then
+          if va.Head:FindFirstChild("OriginalSize") then
+            va.Head.OriginalSize:Destroy()
+          end
+        else
+          for fk, fl in pairs(fe:GetDescendants()) do
+            if fl:IsA("Attachment") and fl:FindFirstChild("OriginalPosition") then
+              fl.OriginalPosition:Destroy()
+            end
+          end
+          fe:FindFirstChild("OriginalSize"):Destroy()
+          if fe:FindFirstChild("AvatarPartScaleType") then
+            fe:FindFirstChild("AvatarPartScaleType"):Destroy()
+          end
+        end
+      end
+    end
+  end
+  rm()
+  wait(0,5)
+  game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):FindFirstChild("BodyProportionScale"):Destroy()
+  wait(1)
+  rm()
+  wait(0,5)
+  game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):FindFirstChild("BodyHeightScale"):Destroy()
+  wait(1)
+  rm()
+  wait(0,5)
+  game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):FindFirstChild("BodyWidthScale"):Destroy()
+  wait(1)
+  rm()
+  wait(0,5)
+  game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):FindFirstChild("BodyDepthScale"):Destroy()
+  wait(1)
+  rm()
+  wait(0,5)
+  game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):FindFirstChild("HeadScale"):Destroy()
+  wait(1)
+  game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid").Speed = 30
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", "http://www.roblox.com/asset/?id=6031075938"):Channel("Body Mods"):Seperator()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", "http://www.roblox.com/asset/?id=6031075938"):Channel("Body Mods"):Button("Small FE", function()
+  (function()
+    for fd, fe in pairs(va:GetDescendants()) do
+      if fe:IsA("BasePart") and fe.Name ~= "Head" then
+        for fk, fl in pairs(fe:GetDescendants()) do
+          if fl:IsA("Attachment") and not pairs(va:GetDescendants()) then
+            fl.OriginalPosition:Destroy()
+          end
+        end
+        fe:FindFirstChild("OriginalSize"):Destroy()
+        if fe:FindFirstChild("AvatarPartScaleType") then
+          fe:FindFirstChild("AvatarPartScaleType"):Destroy()
+        end
+      end
+    end
+  end)()
+  wait(0,5)
+  game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):FindFirstChild("BodyTypeScale"):Destroy()
+  wait(1);
+  (function()
+    for fd, fe in pairs(va:GetDescendants()) do
+      if fe:IsA("BasePart") and fe.Name ~= "Head" then
+        for fk, fl in pairs(fe:GetDescendants()) do
+          if fl:IsA("Attachment") and not pairs(va:GetDescendants()) then
+            fl.OriginalPosition:Destroy()
+          end
+        end
+        fe:FindFirstChild("OriginalSize"):Destroy()
+        if fe:FindFirstChild("AvatarPartScaleType") then
+          fe:FindFirstChild("AvatarPartScaleType"):Destroy()
+        end
+      end
+    end
+  end)()
+  wait(0,5)
+  game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):FindFirstChild("BodyWidthScale"):Destroy()
+  wait(1);
+  (function()
+    for fd, fe in pairs(va:GetDescendants()) do
+      if fe:IsA("BasePart") and fe.Name ~= "Head" then
+        for fk, fl in pairs(fe:GetDescendants()) do
+          if fl:IsA("Attachment") and not pairs(va:GetDescendants()) then
+            fl.OriginalPosition:Destroy()
+          end
+        end
+        fe:FindFirstChild("OriginalSize"):Destroy()
+        if fe:FindFirstChild("AvatarPartScaleType") then
+          fe:FindFirstChild("AvatarPartScaleType"):Destroy()
+        end
+      end
+    end
+  end)()
+  wait(0,5)
+  game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):FindFirstChild("BodyDepthScale"):Destroy()
+  wait(1);
+  (function()
+    for fd, fe in pairs(va:GetDescendants()) do
+      if fe:IsA("BasePart") and fe.Name ~= "Head" then
+        for fk, fl in pairs(fe:GetDescendants()) do
+          if fl:IsA("Attachment") and not pairs(va:GetDescendants()) then
+            fl.OriginalPosition:Destroy()
+          end
+        end
+        fe:FindFirstChild("OriginalSize"):Destroy()
+        if fe:FindFirstChild("AvatarPartScaleType") then
+          fe:FindFirstChild("AvatarPartScaleType"):Destroy()
+        end
+      end
+    end
+  end)()
+  wait(0,5)
+  game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):FindFirstChild("HeadScale"):Destroy()
+  wait(1)
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", "http://www.roblox.com/asset/?id=6031075938"):Channel("Body Mods"):Seperator()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", "http://www.roblox.com/asset/?id=6031075938"):Channel("Body Mods"):Button("Default", function()
+  va:Change(16)
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", "http://www.roblox.com/asset/?id=6031075938"):Channel("Body Mods"):Seperator()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", "http://www.roblox.com/asset/?id=6031075938"):Channel("Body Mods"):Button("Default", function()
+  va:Change(50)
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", "http://www.roblox.com/asset/?id=6031075938"):Channel("Visuals"):Button("Remove Blizzard Effect", function()
+  game.Players.LocalPlayer.PlayerGui.BlizzardGui:Destroy()
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", "http://www.roblox.com/asset/?id=6031075938"):Channel("Visuals"):Seperator()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", "http://www.roblox.com/asset/?id=6031075938"):Channel("Visuals"):Button("Remove Sandstorm Effect", function()
+  game.Players.LocalPlayer.PlayerGui.SandStormGui:Destroy()
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", "http://www.roblox.com/asset/?id=6031075938"):Channel("Utilites"):Button("Rejoin", function()
+  game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", "http://www.roblox.com/asset/?id=6031075938"):Channel("Utilites"):Seperator()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", "http://www.roblox.com/asset/?id=6031075938"):Channel("Utilites"):Button("TP to Base", function()
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-282,388824, 180,693329, 340,500519, -0,794444382, 3,76983955E-08, 0,607336879, 4,02783975E-08, 1, -9,38432265E-09, -0,607336879, 1,70072347E-08, -0,794444382)
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", "http://www.roblox.com/asset/?id=6031075938"):Channel("Utilites"):Seperator()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", "http://www.roblox.com/asset/?id=6031075938"):Channel("Utilites"):Button("TP to Island", function()
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-112,534203, 48,5933762, 25,5484829, 0,241879404, -7,91259964E-08, 0,970306337, 6,1703517E-08, 1, 6,61658888E-08, -0,970306337, 4,38671499E-08, 0,241879404)
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", "http://www.roblox.com/asset/?id=6031075938"):Channel("Utilites"):Seperator()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", "http://www.roblox.com/asset/?id=6031075938"):Channel("Utilites"):Button("TP to China", function()
+  game:GetService("TeleportService"):Teleport(3696971654, plr)
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", "http://www.roblox.com/asset/?id=6031075938"):Channel("Misc Scripts"):Button("Infinite Yield", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", "http://www.roblox.com/asset/?id=6031075938"):Channel("Misc Scripts"):Seperator()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", "http://www.roblox.com/asset/?id=6031075938"):Channel("Misc Scripts"):Button("CMD X", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", "http://www.roblox.com/asset/?id=6031075938"):Channel("Misc Scripts"):Seperator()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", "http://www.roblox.com/asset/?id=6031075938"):Channel("Misc Scripts"):Button("Hydroxide", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/9NLK7/93qjoadnlaknwldk/main/sideshit"))()
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", "http://www.roblox.com/asset/?id=6031075938"):Channel("Toggles"):Toggle("Spam Sounds FE", false, function(a)
+  getgenv().hit = a
+  while not a do
+    if not a then
+      for fe, fg in pairs(game.Workspace:GetDescendants()) do
+        if not pairs(game.Workspace:GetDescendants()) then
+          fg:Play()
+        end
+      end
+    end
+  end
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", "http://www.roblox.com/asset/?id=6031075938"):Channel("Toggles"):Seperator()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", "http://www.roblox.com/asset/?id=6031075938"):Channel("Toggles"):Toggle("Vote GUI", false, function(a)
+  game:GetService("Players").LocalPlayer.PlayerGui.MainGui.MapVotePage.Visible = a
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", ""):Channel("Info"):Label("This was made using a UI Library. I take no credit for this ui.")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", ""):Channel("Info"):Seperator()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", ""):Channel("Info"):Button("UI Lib", function()
+  syn.write_clipboard("https://raw.githubusercontent.com/bloodball/UI-Librarys/main/Discord%20Lib")
+  va:Notification("Notification", "Copied to clipboard", "dismiss")
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", ""):Channel("Info"):Seperator()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", ""):Channel("Info"):Label("Thx daddy adler for the help, his SS below")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil))():Window("NDS Hub"):Server("Main", ""):Channel("Info"):Button("Dominator SS discord", function()
+  syn.write_clipboard("https://discord.gg/kYqrj4x523")
+  va:Notification("Notification", "Copied to clipboard", "dismiss")
+end)
