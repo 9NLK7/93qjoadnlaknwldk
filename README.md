@@ -1,0 +1,1 @@
+a lot of this is skidded, did this after like 2 days of learning lua. u can find source somewhere in past versionls, idk where i put the current source. its obfed cuz i was testing how obfuscation works. 
